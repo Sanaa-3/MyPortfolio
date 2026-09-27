@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" />
+    <link rel="stylesheet" href="./css/mainpage.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sanaa Stanezai Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <p id="menu-icon" onclick="openMenu()">&#9776;</p>
+      <div id="navigation__background"></div>
+      <nav id="navContent">
+        <a href="javascript:void(0)" id="closebtn" onclick="closeMenu()"
+          >&times;</a
+        >
+        <ul>
+          <li><a href="./index.html">Home Page</a></li>
+          <li><a href="../background/">Background</a></li>
+          <li><a href="../contact/">Contact me</a></li>
+              //add a "Projects" link to the navigation menu 
+          <li><a href="../projects/">Projects</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="wrapper">
+      <section id="section-left">
+        <article>
+          <h1>Sanaa Stanezai</h1>
+          <img src="images/Sanaa.jpeg" id="ProfileImg" />
+          <p>
+            I build things the way I hike: one deliberate step at a time, and always looking at the bigger view.
+          </p>
+          <section id="Section-links">
+            <!-- <a href="https://www.facebook.com/zia.wsi/"
+              ><img src="/images/facebook.png" alt="facebook"
+            /></a> -->
+            <a href="https://www.linkedin.com/in/sanaastanezai/"
+              ><img src="./images/linkedin.png" alt="LinkedIn"
+            /></a>
+            <a href="https://github.com/Sanaa-3"
+              ><img src="images/Github.png" alt="Github"
+            /></a>
+          </section>
+          <section id="sectionProLinks">
+            <a href="./contact/"
+              ><img src="./images/contactme.jpg" id="proImage" />Contact Me</a
+            >
+
+            <a href="./background/"
+              ><img src="./images/background.jpg" id="proImage" />Background
+            </a>
+            <a href="./projects/"
+              ><img src="./images/projects.jpg" id="proImage" />Projects
+            </a>
+          </section>
+          <section id="developer-mode">
+            <br />
+            <label id="change-color">Developer mode: </label>
+            <p>
+              <label id="lbl-right" name="color-right">Right</label>
+              <input
+                type="color"
+                id="color-right"
+                value="#0A6D23"
+                onchange="bgcolChange()"
+              /><br />
+              <label id="lbl-left" name="color-left">Left</label>
+              <input
+                type="color"
+                id="color-left"
+                value="#0AB478"
+                onchange="bgcolChange()"
+              />
+            </p>
+          </section>
+        </article>
+      </section>
+      <section id="section-right-top">
+        <span id="span-left"
+          ><h1>Sanaa Stanezai</h1>
+          <h2>Software Engineer</h2>
+          <p>
+            My path into software crossed three countries: born in Afghanistan, 
+            raised 13 years in California, now building the next chapter in Switzerland.
+
+            I hold a B.S. in Computer Science with a minor in Mathematics from San José State University, 
+            focused on systems engineering and backend development. I love watching an unclear problem 
+            turn into a working system, but I want that work to matter: protecting data, supporting real operations, 
+            building tools that actually help people.
+
+            I'm early in my career and looking for a team where I can contribute, ask good questions, 
+            and keep growing as an engineer. Currently seeking junior software engineering roles in Switzerland.
+          </p>
+          <span id="span_leftLink">
+            <abbr title="For Security reasons copy of CV is not Available"
+              ><a href="#" id="resumeButton">Review Resume</a></abbr
+            >
+            <abbr title="Incomplete work/ Partial Work"
+              ><a href="./OtherPages/" id="visitButton">Visit my Work</a></abbr
+            ></span
+          >
+        </span>
+        <span id="span-right"
+          ><img
+            src="./images/ThanksGod.jpeg"
+            alt="Thanking God"
+            id="ThanksGodImg"
+          />
+        </span>
+      </section>
+      <section id="section-right">
+        <span id="section-right-span">
+          <h1>What have I done?</h1>
+          <p>
+            I've worked on autonomous navigation systems using ROS, Jetson, and LiDAR during 
+            an internship at Santa Clara University's Robotics Systems Lab, and did systems 
+            engineering work at Zeda Inc. On the project side, I built Gravity Hoops, 
+            a sensor-based basketball game for Android written in Java, and co-built a 
+            Faculty Office Hours Manager using JavaFX as part of a team. I've also stayed 
+            involved in community: serving as Chair and PR Chair for SWE++ at SJSU, and 
+            Secretary for the AI Club at Ohlone College.
+          </p>
+        </span>
+
+        <article id="article-php">
+          <img src="./images/php.jpg" alt="php-Logo" />
+          <p>
+            PHP was the main programming language while I was pursuing my
+            Internship with DCM, Besides that in specialization period of my
+            bootcamp course with Powercoders I worked in PHP.
+          </p>
+        </article>
+        <article id="article-python">
+          <img src="./images/python.png" alt="Python-Logo" />
+          <p>
+            Python, it's one of my favorite programming languages, I also
+            developed a sudoku game but not with Dynamic solutions. Python is a
+            very strong programming language and more human readable.
+          </p>
+        </article>
+        <article id="article-javascript">
+          <img src="./images/js.jpg" alt="Javascript-Logo" />
+          <p>
+            JavaScript is also one of my favorite programming languages, I
+            learned Javascript in Kardan University, however with Powercoders I
+            expanded my Javascript knowledge
+          </p>
+        </article>
+        <article id="article-sql">
+          <img src="./images/sql.png" alt="SQL-Logo" />
+          <p>
+            SQL stands for Structured Query Language. if its Oracle, SQL Server,
+            or Maria DB, you definitely need SQL to retrieve, modify, or save
+            data into tables, I learned SQL at Kardan University and I am
+            consistently benefiting from the gained Knowledge.
+          </p>
+        </article>
+        <article id="article-html">
+          <img src="./images/html.jpg" alt="HTML-Logo" />
+          <p>
+            HTML stands for HyperText Markup Language. Its the first ever Markup
+            language that I used to code while I was at school, my favorite tag
+            was &lt;marquee&gt; 💗.
+          </p>
+        </article>
+        <article id="article-css">
+          <img src="./images/CSS.jpg" alt="CSS-Logo" />
+          <p>
+            CSS, Once you have a plain text and when you need to add styles and
+            its CSS, I learned CSS wile doing my Bachelor and I updated my CSS
+            knowledge when I was a part of Powercoders participant.
+          </p>
+        </article>
+      </section>
+    </main>
+    <article id="PopupNew">
+      <img src="./images/newyear.jpg" id="newyear" />
+    </article>
+    <script src="./javascript/javascript.js"></script>
+  </body>
+</html>
