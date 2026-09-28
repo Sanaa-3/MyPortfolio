@@ -1,7 +1,7 @@
 html {
   font-size: 18px;
   /* font-family: "Kalam"; */
-  font-family: sans-serif;
+  font-family: Fira Sans;
 }
 h2 {
   margin-top: 0rem;
@@ -217,16 +217,16 @@ h4 {
 
 #article-span img {
   width: 50%;
-  border-radius: 25%;
-  background-color: rgb(163, 252, 103);
+  border-radius:0%;
+  background-color: transparent;
 }
 #article-span-span img {
   width: 6%;
   margin-right: 0.5rem;
 }
 #article-first {
-  top: 5%;
-  right: 15%;
+  top: 2%;
+  right: 10%;
   background-image: linear-gradient(
     to right bottom,
     rgb(190, 7, 7),
@@ -234,21 +234,24 @@ h4 {
   );
 }
 #article-two {
-  top: 22%;
-  left: 5%;
+  top: 21%;
+  left: 8%;
 }
+
 #article-three {
   top: 40%;
-  right: 18%;
+  right: 6%;
   background-image: linear-gradient(
     to right bottom,
     rgb(53, 60, 163),
     rgb(117, 230, 206)
   );
 }
+
 #article-four {
-  top: 25%;
-  right: 2%;
+  top: 59%;
+  left: 4%;
+  right: auto;
   background-image: linear-gradient(
     to right bottom,
     rgb(223, 224, 234),
