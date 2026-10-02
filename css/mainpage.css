@@ -278,7 +278,7 @@ main {
 #section-right article {
   min-width: 0;
   margin: 0;
-  padding: 0.65rem;
+  padding: 0.55rem;
   background-color: rgb(250, 250, 246);
   border-radius: 0.4rem;
   box-shadow: 0 3px 8px rgba(55, 120, 75, 0.25);
