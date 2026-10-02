@@ -1,7 +1,8 @@
 #projects-page,
+#projects-page,
 #projects-page * {
   box-sizing: border-box;
-  font-family: sans-serif !important;
+  font-family: Fira Sans !important;
 }
 
 #projects-page {
