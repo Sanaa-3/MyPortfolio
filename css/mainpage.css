@@ -11,14 +11,14 @@ body {
   margin: 0;
   background-image: linear-gradient(
       to right bottom,
-      rgba(0, 0, 0, 0.8),
-      rgba(40, 114, 180, 0.8)
+      rgba(31, 50, 90, 0.72),
+      rgba(242, 182, 50, 0.45)
     ),
     url(../images/headerphoto.webp);
   background-size: 100% 70%;
   background-repeat: no-repeat;
   height: 100vh;
-  background-color: rgb(234, 243, 231);
+  background-color: #f5f0e8;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -37,7 +37,7 @@ body {
   width: 60px;
   height: 60px;
   border-radius: 50%;
-  background-color: rgba(79, 158, 168, 0.982);
+  background-color: rgba(34, 87, 166, 0.96);
   position: fixed;
   top: 0px;
   right: 0px;
@@ -95,7 +95,7 @@ main {
 }
 #menu-icon {
   border: 1px;
-  background-color: rgba(9, 129, 115, 0.527);
+  background-color: rgba(34, 87, 166, 0.8);
   color: white;
   cursor: pointer;
   font-size: 1.5rem;
@@ -119,8 +119,8 @@ main {
   grid-area: section-left;
   background-image: linear-gradient(
     to right bottom,
-    rgba(7, 100, 30, 0.993),
-    rgba(23, 97, 187, 0.8)
+    rgba(34, 87, 166, 0.98),
+    rgba(242, 182, 50, 0.9)
   );
   border-top-left-radius: 0.5rem;
   border-bottom-left-radius: 0.5rem;
@@ -152,7 +152,7 @@ main {
 }
 #section-right {
   grid-area: section-right;
-  background-color: rgb(222, 230, 222);
+  background-color: #eee8dc;
   border-top-right-radius: 0.5rem;
   border-bottom-right-radius: 0.5rem;
   padding: 1rem;
@@ -188,7 +188,7 @@ main {
   margin-top: 0.35rem;
   font-size: 0.85rem;
   line-height: 1.5;
-  color: #475569;
+  color: #4f4a42;
 }
 #article-html {
   grid-area: article-html;
@@ -229,13 +229,13 @@ main {
 #section-left a {
   display: inline-block;
   width: 20%;
-  color: green;
+  color: #2257a6;
   font-weight: bold;
   font-size: 0.7rem;
   transition: transform 0.1s;
 }
 #Section-links {
-  border-top: solid 3px rgba(9, 124, 48, 0.568);
+  border-top: solid 3px rgba(34, 87, 166, 0.6);
   margin-top: 0.5rem;
   padding-top: 0.5rem;
 }
@@ -266,8 +266,8 @@ main {
   border-radius: 0.2rem;
   background-image: linear-gradient(
     to right bottom,
-    rgba(10, 109, 35, 0.993),
-    rgba(10, 180, 120, 0.8)
+    rgba(34, 87, 166, 0.98),
+    rgba(242, 182, 50, 0.9)
   );
   text-decoration: none;
   border: none;
@@ -279,7 +279,7 @@ main {
   min-width: 0;
   margin: 0;
   padding: 0.55rem;
-  background-color: rgb(250, 250, 246);
+  background-color: #fffaf0;
   border-radius: 0.4rem;
   box-shadow: 0 3px 8px rgba(55, 120, 75, 0.25);
   font-size: 0.9rem;
@@ -433,3 +433,22 @@ ul li:hover {
 #newyear {
   width: 70%;
 }
+
+/*palette
+
+  /* Cream 
+  #f5f0e8
+
+  /* Royal blue 
+  #2257a6
+
+  /* Gold 
+  #f2b632
+
+  /* Warm white 
+  #fffaf0
+
+  /* Brown text 
+  #4f4a42
+
+*/
