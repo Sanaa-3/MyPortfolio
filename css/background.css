@@ -29,7 +29,7 @@ main {
   display: flex;
   width: 92vw;
   height: 90vh;
-  padding-bottom: 8rem;
+  padding-bottom: 10rem;
   box-sizing: content-box;
   background: #2257a6;
   border-radius: 5px;
@@ -272,6 +272,17 @@ h4 {
     to right bottom,
     #9dc3e2,
     #dfb3d4
+  );
+}
+
+#article-five {
+  top: 78%;
+  left: 26%;
+  right: auto;
+  background-image: linear-gradient(
+    to right bottom,
+    #ffffff,
+    #d9ea83
   );
 }
 
