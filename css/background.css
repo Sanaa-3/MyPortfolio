@@ -126,8 +126,8 @@ header {
 .art-all:hover {
   transform: translateX(0.2rem) scale(1.015);
 }
-ul li:hover {
-  color: #fffaf0;
+#navContent ul li:hover {
+  color: white;
   font-weight: bold;
 }
 
@@ -254,38 +254,6 @@ h4 {
   );
 }
 
-#article-three {
-  top: 40%;
-  right: 6%;
-  background-image: linear-gradient(
-    to right bottom,
-    #766091,
-    #eddd7f
-  );
-}
-
-#article-four {
-  top: 59%;
-  left: 4%;
-  right: auto;
-  background-image: linear-gradient(
-    to right bottom,
-    #9dc3e2,
-    #dfb3d4
-  );
-}
-
-#article-five {
-  top: 78%;
-  left: 26%;
-  right: auto;
-  background-image: linear-gradient(
-    to right bottom,
-    #ffffff,
-    #d9ea83
-  );
-}
-
 main article:hover {
   z-index: 50;
   box-shadow: 0 2.5rem 4rem rgba(31, 50, 90, 0.5);
@@ -374,8 +342,6 @@ p {
 
   #article-first,
   #article-two,
-  #article-three,
-  #article-four,
   .article-all {
     margin-top: 5px;
     border: none;
@@ -497,4 +463,45 @@ p {
   color: #2257a6;
   font-weight: bold;
   text-decoration: none;
+}
+
+#community-heading {
+  position: absolute;
+  top: 1%;
+  left: 15%;
+  z-index: 60;
+  margin: 1;
+  padding: 0.35rem 0.7rem;
+  color: #dce2dc;
+  background-image: linear-gradient(
+    to right,
+    #197aa8,
+    rgba(28, 56, 127, 0.61)
+  );
+  box-shadow: 0 0.5rem 0.5rem rgba(226, 210, 93, 0.5);
+  font-size: 1.35rem;
+  text-transform: uppercase;
+}
+
+#article-first {
+  top: 15%;
+  z-index: 4;
+}
+
+#article-two {
+  top: 53%;
+  z-index: 3;
+}
+
+#section-background article:hover {
+  z-index: 50;
+}
+
+#art-pcoders:hover {
+  transform: none;
+}
+
+#art-pcoders .education-details li,
+#art-pcoders .education-details li:hover {
+  color: rgb(32, 94, 170);
 }
